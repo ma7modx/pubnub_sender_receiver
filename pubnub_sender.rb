@@ -11,8 +11,6 @@ pubnub.publish(channel: 'Channel-b7mb3jsgl', message: 'Hello from PubNub Ruby SD
   puts envelope.parsed_response
 end
 
-x = 3
-
 
 pubnub.publish(channel: 'Channel-b7mb3jsgl', message: 'Hello from PubNub Ruby SDK!') do |envelope|
   puts envelope.parsed_response
