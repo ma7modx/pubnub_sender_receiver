@@ -13,8 +13,6 @@ end
 end
 
 
-x = 3
-
 pubnub.subscribe(channel: 'Channel-b7mb3jsgl') do |envelope|
   puts envelope.message
 end
