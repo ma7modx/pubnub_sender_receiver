@@ -8,7 +8,6 @@ pubnub = Pubnub.new(
 )
 while(true)
 pubnub.subscribe(channel: 'Channel-b7mb3jsgl') do |envelope|
-  debugger
   puts envelope.message
 end
 end
